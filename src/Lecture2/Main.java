@@ -25,11 +25,10 @@ public class Main {
         product3.detail="8 GB Ram"; */
 
         Product product1 = new Product(1,"Lenovo V14",15000,"16GB RAM");
-        Product proa = new Product("MSİ",17000);
         Product product2 =new Product(2,"Lenovo V15",16000,"32GB RAM");
         Product product3=new Product(3,"HP 5",10000,"8GB RAM");
 
-        Product[] products = {product1,product2,product3,proa};
+        Product[] products = {product1,product2,product3};
 
         //Product verinin türü for başında ikincisi takma isim
         for (Product ürünler: products) {

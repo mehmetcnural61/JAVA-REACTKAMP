@@ -15,10 +15,7 @@ public class Product {
         this.detail=detail;
     }
 
-    public Product(String name, double unitPrice) {
-        this.name = name;
-        this.unitPrice = unitPrice;
-    }
+
 
     int id;
     String name;
